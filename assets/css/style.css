@@ -40,9 +40,14 @@
     justify-content: center;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    margin: 20px;
-
+    margin: @media (max-width: 768px) {
+  /* Styles for tablets and smaller devices */
 }
+
+@media (max-width: 480px) {
+  /* Styles for mobile devices */
+}
+
 
 .btn {
     background-color: rgb(0, 99, 0);
